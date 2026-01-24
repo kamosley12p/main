@@ -1,1 +1,11 @@
+#include <iostream>
+using namespace std;
 
+int main() {
+    string firstName, lastName;
+
+    cin >> firstName >> lastName;
+    cout << "Hello " << lastName;
+
+    return 0;
+}
