@@ -1,0 +1,13 @@
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    string lastName;
+    int score;
+
+    cin >> lastName >> score;
+    cout << lastName << " has a score of " << score;
+
+    return 0;
+}
